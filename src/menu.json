@@ -1,0 +1,86 @@
+[
+  {
+    "name": "info",
+    "active": true,
+    "image": "/static/menu/info.jpg",
+    "title": "What is a Knippie?",
+    "text": "Knippie is cardholder wallet with the following features:",
+    "bullets": [
+      {
+        "title": "Recycled",
+        "text": "the front of this wallet is made out of an old can and a misprinted plastic card"
+      },
+      {
+        "title": "Scam Protected",
+        "text": "Because of the alumnium front and back the wallet protects your cards from being scammed."
+      },
+      {
+        "title": "Super Slim",
+        "text": "Because the cards are hold together by an elastic, the wallet will adept it's size to number if cards it holds. Therefore you will never have wasted space:)"
+      }
+    ]
+  },
+  {
+    "name": "made",
+    "active": true,
+    "image": "/static/menu/made.jpg",
+    "title": "How is the Knippie made?",
+    "text": "Knippie is fully handmade, and goes through to following stages:",
+    "bullets": [
+      {
+        "title": "Laser Cut",
+        "text": "The misprinted card is lasercutted on 4 sides by UncoverLab"
+      },
+      {
+        "title": "Cut and Stamp Frames",
+        "text": "Both the can and the alumnium plate need to be cut into the right size, sanded and stamped."
+      },
+      {
+        "title": "Fold Can",
+        "text": "Fold the can around the card and into the lasercut lines, so all sharp edges are gone."
+      }
+    ]
+  },
+  {
+    "name": "works",
+    "active": true,
+    "image": "/static/menu/works.jpg",
+    "title": "How does the Knippie work?",
+    "text": "Knippie works by folding it open like a deck of cards and pick the card you need! Some Knippies also a moneyclip. "
+  },
+  {
+    "name": "madeby",
+    "active": true,
+    "image": "/static/menu/madeby.jpg",
+    "title": "Made By",
+    "text": "The Knippie is invented and produced by Anouk Boukema. But could have never done it without:",
+    "buttets": [
+      {
+        "title": "UncoverLab",
+        "text": "\"the World's First Tattoo Shop for Objects\" Where the misprinted cards where laser cut. https://uncoverlab.com/"
+      },
+      {
+        "title": "Metaal Winkel",
+        "text": "The metal shop that pre-cut all the alumnium backsides. http://metaalwinkel-metalen.nl/"
+      },
+      {
+        "title": "Vivan de Bruijn",
+        "text": "For thinking of the great name: \"Knippie\", while sipping some coffee"
+      }
+    ]
+  },
+  {
+    "name": "order",
+    "active": true,
+    "image": "/static/menu/order.jpg",
+    "title": "How to get a Knippie",
+    "text": "You can order a Knippie by sending an email to anouk@madx.nl, or sending a sms to 06-12377790"
+  },
+  {
+    "name": "unique",
+    "active":false,
+    "image": "/static/menu/personal.jpg",
+    "title": "Choose your own Knippie",
+    "text": "Pick up or drink up a good looking can, hand it over, and we'll upcycle it to a Knippie."
+  }
+]
