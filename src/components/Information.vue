@@ -69,11 +69,14 @@
         </div>
       </b-col>
     </b-row>
-      <h3 class="videoText" > Easy to use!</h3>
-    <video width="320" height="240" style="margin-top:2 rem;" autoplay loop>
+    <b-row class="video">
+      <div class="title" > Easy to use!</div>
+      <div> A Knippie is like a deck of cards. Just fold it open and thumb through. </div>
+    <video width="320" height="240" style="margin-top: 2rem;" autoplay loop>
   <source src="/static/menu/usage.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
+</b-row>
   </div>
 </template>
 
@@ -93,9 +96,10 @@ Your browser does not support the video tag.
 
 <style>
 
-.videoText {
-  font-style: italic; 
-  margin: 1 rem;
+.video {
+  margin-top: 2rem;
+  display: inline-block;
+  align-content: middle;
 }
 
 .features {
