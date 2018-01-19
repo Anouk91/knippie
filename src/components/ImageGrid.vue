@@ -18,7 +18,7 @@ import canCards from '../canCards'
 export default {
   data () {
     return {
-      button:false,
+      button: false,
       instock: false,
       sold: false,
       active: true,
