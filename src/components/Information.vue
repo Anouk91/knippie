@@ -39,7 +39,7 @@
         Scam Protected
         </div>
         <div>
-          The aluminium front and back of the wallet protect your RFID cards from being scammed.
+           The aluminium front and back of the wallet protect your RFID cards from scamming.
         </div>
       </b-col>
       <b-col class="feature">      
