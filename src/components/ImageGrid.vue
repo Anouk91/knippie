@@ -4,9 +4,12 @@
     <b-button :pressed.sync="button" variant="outline-secondary sm">In Stock</b-button>
     <div class="products">
       <div v-for="card in filteredList"  :key="card.id" >
-          <div class="card"  v-bind:style='{ backgroundImage: "url(" + card.image + ")", }'>        
-          <div  v-if="active" class="cardText" display="hide">{{card.stock}}</div> 
+        <div class="card"  v-bind:style='{ backgroundImage: "url(" + card.image + ")", }'>        
+          <div  v-if="active" class="cardText" display="hide"><b-badge variant="light">{{card.stock}}</b-badge></div> 
         </div>
+          <!-- <b-modal id="modal1" title="Bootstrap-Vue">
+    <p class="my-4">Hello from modal!</p>
+  </b-modal> -->
       </div>
     </div>
   </div>
@@ -14,23 +17,23 @@
 </template>
   
 <script>
-import canCards from '../canCards'
+import canCards from "../canCards";
 export default {
-  data () {
+  data() {
     return {
       button: false,
       instock: false,
       sold: false,
       active: true,
       canCards
-    }
+    };
   },
   computed: {
-    filteredList () {
+    filteredList() {
       if (this.button) {
-        return this.canCards.filter(c => c.stock > 0)
+        return this.canCards.filter(c => c.stock > 0);
       } else {
-        return this.canCards
+        return this.canCards;
       }
     }
   }
@@ -42,7 +45,7 @@ export default {
 </script>
 
 <style>
-.imageGrid{
+.imageGrid {
   background-color: #d6e0f5;
 }
 .products {
@@ -50,6 +53,7 @@ export default {
   max-width: textwidth;
   flex-wrap: wrap;
   padding-top: 12px;
+  padding-bottom: 12px;
   /* background-color: gray; */
 }
 
@@ -66,9 +70,7 @@ export default {
   position: absolute;
   bottom: 0;
   right: 0;
-  margin-right: 10px;
+  margin-right: 2px;
   font-weight: bold;
 }
-
-
 </style>

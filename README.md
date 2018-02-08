@@ -1,6 +1,3 @@
-# test-project
-
-> This is a test Project to learn vuejs and hopefully graphQL
 
 ## Build Setup
 
