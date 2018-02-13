@@ -31,10 +31,10 @@
 
     </b-carousel>
 
-    <h1 style="margin-top: 2rem;">KNIPPIE</h1> 
-    <h3 style="font-style: italic;"> The Upcycled Cheerful Protective Cardholder </h3>
+    <h1 style="margin-top: 2rem">KNIPPIE</h1> 
+    <h3 style="font-style: italic; padding-left: 1rem; padding-right: 1rem;"> The Upcycled Cheerful Protective Cardholder </h3>
     <b-row class="features">
-      <b-col class="feature">
+      <b-col cols="12" sm="6" class="feature">
         <div class="title">
         Scam Protected
         </div>
@@ -42,7 +42,7 @@
            The aluminium front and back of the wallet protect your RFID cards from scamming.
         </div>
       </b-col>
-      <b-col class="feature">      
+      <b-col cols="12" sm="6" class="feature">
         <div class="title">
           Recycled
         </div>
@@ -52,7 +52,7 @@
       </b-col>
       </b-row>
     <b-row class="features">
-      <b-col class="feature">      
+      <b-col cols="12" sm="6" class="feature">
       <div class="title">
         Super Slim
         </div>
@@ -60,7 +60,7 @@
           Knippie adjusts itself to the amount of cards it has to protect.
         </div>
       </b-col>
-      <b-col class="feature">      
+      <b-col cols="12" sm="6" class="feature">
       <div class="title">
         Unique
         </div>
@@ -70,7 +70,7 @@
       </b-col>
     </b-row>
     <b-row class="video">
-      <b-col>
+      <b-col class="feature">
       <div class="title" > Easy to use!</div>
       <div> A Knippie is like a deck of cards. Just fold it open and thumb through. </div>
     <video width="320" height="240" style="margin-top: 2rem;" autoplay loop>
@@ -99,24 +99,27 @@
 <style>
 
 .video {
-  margin-top: 2rem;
   display: inline-block;
   align-content: middle;
 }
 
 .features {
-  margin-left: 5rem;
+  /* margin-lefst: 5rem; */
 }
 
 .features > b-col {
-  display: flex;
-  flex-wrap: wrap;
+
+  /* display: flex;
+  flex-wrap: wrap; */
 }
 
 
 .feature{
-  padding-top: 2rem;
-  margin-right: 5rem;
+  margin-top: 2rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  /* padding-top: 2rem;
+  margin-right: 5rem; */
 }
 .title {
   font-weight: bold;
