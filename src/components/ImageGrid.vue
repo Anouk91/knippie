@@ -1,11 +1,11 @@
 <template>
 
-  <div style="padding-top: 2rem;" class="imageGrid">
+  <div style="padding-top: 2rem" class="imageGrid">
     <b-button :pressed.sync="button" variant="outline-secondary sm">In Stock</b-button>
     <div class="products">
       <div v-for="card in filteredList"  :key="card.id" >
-        <div class="card"  v-bind:style='{ backgroundImage: "url(" + card.image + ")", }'>        
-          <div  v-if="active" class="cardText" display="hide"><b-badge variant="light">{{card.stock}}</b-badge></div> 
+        <div class="card"  v-bind:style='{ backgroundImage: "url(" + card.image + ")", }'>
+          <div  v-if="active" class="cardText" display="block"></div>   <!-- {{card.stock}} -->
         </div>
           <!-- <b-modal id="modal1" title="Bootstrap-Vue">
     <p class="my-4">Hello from modal!</p>
@@ -17,23 +17,23 @@
 </template>
   
 <script>
-import canCards from "../canCards";
+import canCards from '../canCards'
 export default {
-  data() {
+  data () {
     return {
       button: false,
       instock: false,
       sold: false,
       active: true,
       canCards
-    };
+    }
   },
   computed: {
-    filteredList() {
+    filteredList () {
       if (this.button) {
-        return this.canCards.filter(c => c.stock > 0);
+        return this.canCards.filter(c => c.stock > 0)
       } else {
-        return this.canCards;
+        return this.canCards
       }
     }
   }

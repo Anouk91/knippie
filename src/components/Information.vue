@@ -70,12 +70,14 @@
       </b-col>
     </b-row>
     <b-row class="video">
+      <b-col>
       <div class="title" > Easy to use!</div>
       <div> A Knippie is like a deck of cards. Just fold it open and thumb through. </div>
     <video width="320" height="240" style="margin-top: 2rem;" autoplay loop>
     <source src="/static/menu/usage.mp4" type="video/mp4">
     Your browser does not support the video tag.
     </video> 
+      </b-col>
 </b-row>
   </div>
 </template>
