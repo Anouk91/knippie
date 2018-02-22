@@ -10,9 +10,9 @@
     {
         "id": 2,
         "image": "./static/2.jpg",
-        "sold": 0,
+        "sold": 1,
         "reserved": 0,
-        "stock": 1,
+        "stock": 0,
         "alt": "cancard #2"
     },
     {
@@ -50,7 +50,7 @@
     {
         "id": 7,
         "image": "./static/7.jpg",
-        "sold": 0,
+        "sold": 1,
         "reserved": 0,
         "stock": 1,
         "alt": "cancard #7"
@@ -74,17 +74,17 @@
     {
         "id": 10,
         "image": "./static/10.jpg",
-        "sold": 0,
+        "sold": 1,
         "reserved": 0,
-        "stock": 1,
+        "stock": 0,
         "alt": "cancard #10"
     },
     {
         "id": 11,
         "image": "./static/11.jpg",
-        "sold": 0,
+        "sold": 1,
         "reserved": 0,
-        "stock": 1,
+        "stock": 0,
         "alt": "cancard #11"
     },
     {
@@ -114,9 +114,9 @@
     {
         "id": 15,
         "image": "./static/15.jpg",
-        "sold": 0,
+        "sold": 1,
         "reserved": 0,
-        "stock": 1,
+        "stock": 0,
         "alt": "cancard #15"
     },
     {
@@ -174,5 +174,21 @@
         "reserved": 0,
         "stock": 0,
         "alt": "cancard #22"
+    },
+    {
+        "id": 23,
+        "image": "./static/23.jpg",
+        "sold": 1,
+        "reserved": 0,
+        "stock": 0,
+        "alt": "cancard #23"
+    },
+    {
+        "id": 24,
+        "image": "./static/24.jpg",
+        "sold": 0,
+        "reserved": 0,
+        "stock": 1,
+        "alt": "cancard #24"
     }
 ]
